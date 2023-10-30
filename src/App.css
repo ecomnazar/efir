@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navLink.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navLink {
+  color: #ffffff;
+}
+
+.modal::-webkit-scrollbar {
+  width: 6px;
+}
+.modal::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ffffff;/* #292B31 */
+  padding: 10px 0;
+}
+.modal::-webkit-scrollbar-track {
+  margin: 5px 0;
+}
